@@ -37,5 +37,3 @@ services:
     build:
       context: .docker
       dockerfile: twitter-py.dockerfile
-    ports:
-      - '4000:4000'
